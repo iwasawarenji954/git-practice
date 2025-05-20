@@ -43,4 +43,14 @@ git checkout <branch名>
 ```sh
 git checkout -b <old> <new>
 ```
+# git fetch
+リモートの情報をローカルのリポジトリに持ってくる。
+```sh
+git fetch
+```
 
+# git pull
+リモートの情報をワークスペースに持ってくる。
+```sh
+git pull
+```
