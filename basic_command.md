@@ -26,3 +26,21 @@ git reset HEAD <file>
 ```sh
 git checkout -- <file>
 ```
+
+# git branch
+現在のコミットからブランチを切れる。
+```sh
+git branch <branch名>
+```
+
+# git checkout <branch名>
+作業中のブランチを切り替える。
+```sh
+git checkout <branch名>
+```
+
+ブランチを切りながら切り替えるには
+```sh
+git checkout -b <old> <new>
+```
+
